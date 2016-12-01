@@ -10,3 +10,8 @@ print("hello")
 let otherSrt = "Hi West"
 
 print(otherSrt)
+
+
+var Name = "West"
+
+print("Hello " + Name)
