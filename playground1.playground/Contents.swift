@@ -15,3 +15,7 @@ print(otherSrt)
 var Name = "West"
 
 print("Hello " + Name)
+
+let myInt = 8
+
+print(myInt + 100)
