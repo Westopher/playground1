@@ -5,6 +5,7 @@ import UIKit
 var str = "Hello, playground"
 
 print("West")
+
 print("hello")
 
 let otherSrt = "Hi West"
@@ -37,3 +38,17 @@ var array = [3.87, 7.1, 8.9]
 array.remove(at: 1)
 
 array.append(array[0] * array[1])
+
+// dictionaries
+
+var menu = [String: Decimal]()
+
+menu["Pizza"] = 10.99
+
+menu["Ice Cream"] = 4.99
+
+menu["Salad"] = 7.99
+
+print ("The total cost of my meal is \(menu["Pizza"]! + menu["Ice Cream"]!)")
+
+
