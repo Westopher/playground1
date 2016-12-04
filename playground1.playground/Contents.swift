@@ -46,11 +46,15 @@ if username == "westk" && password == "myPass" {
 
 } else if username == "westk" {
     
-    print ("the age is incorrect")
+    print ("the password is incorrect")
     
 } else {
     
     print ("the username is incorrect")
     
 }
+
+let randomNumber = arc4random_uniform(6)
+
+
 
